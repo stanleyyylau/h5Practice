@@ -7,11 +7,15 @@ body {
   padding: 0;
   border: 0;
 }
-body {
-    background: url(imgs/p1-bg-img.png) no-repeat center;
+section {
     position: relative;
     background-size: cover;
 }
+
+.st-section1 {
+    background: url(imgs/p1-bg-img.png) no-repeat center;
+}
+
 img.p1-bottom-ball {
   width: 100%;
   position: absolute;
@@ -115,3 +119,5 @@ img.p1-title-left-dusk {
 .animated4 {
   animation-delay: 4s;
 }
+
+/*Section 2 starts from here*/
