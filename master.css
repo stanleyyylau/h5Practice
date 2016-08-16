@@ -14,6 +14,7 @@ section {
 
 .st-section1 {
     background: url(imgs/p1-bg-img.png) no-repeat center;
+    z-index: -1000;
 }
 
 img.p1-bottom-ball {
@@ -121,3 +122,158 @@ img.p1-title-left-dusk {
 }
 
 /*Section 2 starts from here*/
+.st-section2 {
+    background-image: url(imgs/p2-bg-img.png);
+    position: relative;
+    background-size: cover;
+    z-index: -1000;
+}
+
+.ideal-job-text {
+    height: 2%;
+}
+
+.p2-human {
+    width: 30%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 35%;
+}
+
+.p2-title2 {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 14%;
+    height: 3%;
+}
+
+.p2-title1 {
+    top: 5%;
+    height: 6%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.p2-ideal-job-globe {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 22%;
+}
+
+.p2-starsign-net {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 68%;
+    top: 36%;
+    z-index: -1;
+}
+
+.p2-working-envirment {
+    bottom: 20%;
+    right: 13%;
+}
+
+.p2-resturant-catering {
+    top: 32%;
+    right: 31%;
+}
+
+.p2-hourly-rate {
+    left: 31%;
+    bottom: 20%;
+}
+
+.p2-fullt-experience {
+    top: 75%;
+    left: 7%;
+}
+
+.p2-2year-experience {
+    left: 6%;
+    bottom: 44.5%;
+}
+
+.p2-great-communication {
+    right: 21%;
+    top: 44.5%;
+}
+
+.p2-bottom-text {
+    height: 3%;
+    bottom: 4%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*add this utility class to center images */
+.img-center{
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+
+/*section3*/
+.st-section3 {
+    background-image: url(imgs/p3-bg-img.png);
+    position: relative;
+    background-size: cover;
+    z-index: -1000;
+}
+
+.animated.p3-title1 {
+    top: 4%;
+    height: 6%;
+}
+
+.p3-title2 {
+    top: 13%;
+    height: 3%;
+}
+
+.p3-bg-stone {
+    width: 62%;
+    top: 21%;
+}
+
+.p3-UFO-target {
+    width: 25%;
+    bottom: 14%;
+}
+
+.p3-knockle {
+    bottom: -15px;
+    width: 15%;
+}
+
+.p3-15hourly-rate {
+    height: 9%;
+    right: 8%;
+    top: 23%;
+}
+
+.p3-8hourly-rate {
+    height: 9%;
+    top: 39%;
+    left: 8%;
+}
+
+.p3-earth {
+    width: 100%;
+    bottom: -105px;
+}
+
+.p3-UFO {
+    width: 47%;
+    bottom: 10%;
+}
+
+.p3-UFO-target {
+    width: 18%;
+}
