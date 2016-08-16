@@ -1,87 +1,117 @@
 /*Page 1*/
-html, body{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
+html,
 body {
-    background: url(p1-bg-img.png) no-repeat center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+    background: url(imgs/p1-bg-img.png) no-repeat center;
     position: relative;
+    background-size: cover;
 }
-
 img.p1-bottom-ball {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
-
 img.p1-finding-job-text {
-    bottom: 4%;
-    display: block;
-    width: 50%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+  bottom: 4%;
+  display: block;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
-
 .p1-title1 {
-    width: 55%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 3%;
+  width: 55%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 3%;
 }
-
 .p1-title2 {
-    width: 50%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 12%;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 12%;
 }
-
 .p1-superman {
-    width: 63%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 33%;
+  width: 63%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 33%;
 }
-
 img.p1-globe {
-    position: absolute;
-    width: 19%;
-    top: 31%;
-    left: 14%;
+  position: absolute;
+  width: 19%;
+  top: 31%;
+  left: 14%;
 }
-
 img.p1-text-outsource {
     position: absolute;
-    top: 58%;
+    top: 56%;
     width: 10%;
-    right: 10%;
+    right: 14%;
 }
-
 img.p1-text-fulltime {
+  position: absolute;
+  top: 39.8%;
+  left: 23%;
+  width: 11%;
+}
+img.p1-text-realtime {
+  position: absolute;
+  top: 23%;
+  width: 10%;
+  right: 17%;
+}
+img.p1-superman-aside {
     position: absolute;
-    top: 39.8%;
-    left: 23%;
-    width: 11%;
+    width: 89%;
+    bottom: 14%;
+    z-index: -2;
 }
 
-img.p1-text-realtime {
-    position: absolute;
-    top: 23%;
-    width: 10%;
-    right: 17%;
+img{
+  position:absolute;
+}
+
+img.p1-traffic {
+    top: 18%;
+    width: 16%;
+    right: 35%;
+}
+
+img.p1-title-left-dusk {
+    width: 5%;
+    left: 10%;
+    top: 5%;
+}
+
+.animated1 {
+  animation-delay: 1s;
+}
+
+.animated2 {
+  animation-delay: 2s;
+}
+
+.animated3 {
+  animation-delay: 3s;
+}
+
+.animated4 {
+  animation-delay: 4s;
 }
