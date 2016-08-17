@@ -27,7 +27,8 @@
     "gulp-plumber": "^1.0.1",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.1",
-    "gulp-zip": "^3.2.0"
+    "gulp-zip": "^3.2.0",
+    "less-plugin-autoprefix": "^1.5.1"
   },
   "dependencies": {
     "gulp": "^3.9.1",
