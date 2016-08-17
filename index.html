@@ -100,7 +100,51 @@
 
   <script type="text/javascript">
     $(document).ready(function() {
-    $('#fullpage').fullpage();
+      //let's first grab all the dom elements needed for animation
+      var $p1Title1 = $('.p1-title1');
+      var $p1Title2 = $('.p1-title2');
+      var $p1Globe = $('.p1-globe');
+      var $p1TextFulltime = $('.p1-text-fulltime');
+      var $p1TextOutsource = $('.p1-text-outsource');
+      var $p1TextRealtime = $('.p1-text-realtime');
+      var $p1Superman = $('.p1-superman');
+      var $p1SupermanAside = $('.p1-superman-aside');
+      var $p1BottomBall = $('.p1-bottom-ball');
+      var $p1FindingJobText = $('.p1-finding-job-text');
+
+      var toggleP1Animation = function(){
+        $p1Title1.toggleClass('fadeInDownBig');
+        $p1Title2.toggleClass('fadeInDownBig');
+        $p1Globe.toggleClass('rollIn animated1');
+        $p1TextFulltime.toggleClass('rollIn animated2');
+        $p1TextOutsource.toggleClass('zoomIn animated2');
+        $p1TextRealtime.toggleClass('zoomIn animated2');
+        $p1Superman.toggleClass('bounceInLeft');
+        $p1SupermanAside.toggleClass('bounceInLeft');
+        $p1BottomBall.toggleClass('fadeInUp animated1');
+        $p1FindingJobText.toggleClass('slideInUp animated1');
+      }
+
+    $('#fullpage').fullpage({
+      onLeave: function(index,nextIndex,direction){
+
+
+        if( index == 1 && direction == 'down' ){
+          console.log("you're on second page");
+          toggleP1Animation();
+        }
+
+        else if( index == 2 && direction == 'up' ){
+          console.log("you're on first page");
+          toggleP1Animation();
+        }
+
+      }
+    });
+
+
+
+
     });
   </script>
   </body>
